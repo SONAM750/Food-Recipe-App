@@ -1,0 +1,16 @@
+.searchContainer{
+    width:300px;
+margin:20px auto;
+position:relative;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.modinput{
+    border-bottom: 1px solid #e3e4dc;
+    padding:10px 20px;
+    width:100%;
+    border: none;
+    outline:none;
+    font-size: 18px;
+    color:#393e46;
+}

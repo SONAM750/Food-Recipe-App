@@ -1,7 +1,6 @@
 .searchContainer{
     width:300px;
 margin:20px auto;
-position:relative;
 box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
 }
@@ -13,4 +12,16 @@ box-shadow: 0 0 10px rgba(0,0,0,0.1);
     outline:none;
     font-size: 18px;
     color:#393e46;
+}
+@media (max-width: 576px) {
+    .searchContainer {
+        width: 90%; 
+        margin: 15px auto; 
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .modinput {
+        padding: 8px 15px; 
+        font-size: 16px; 
+    }
 }

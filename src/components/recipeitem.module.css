@@ -27,3 +27,35 @@ margin-left:50px;
     margin-top:10px;
     font-weight: bold;
 }
+@media (max-width: 576px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+      margin-top: 20px;
+  }
+
+  .imageContainer {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+  }
+
+  .img {
+      border-radius: 10px;
+  }
+
+  .nameContainer {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .name {
+      font-size: medium;
+  }
+
+  .amount {
+      margin-top: 5px;
+      font-size: small;
+  }
+}

@@ -35,3 +35,32 @@
 .recipeInstruction li{
     margin:10px 0px;
 }
+@media (max-width: 576px) {
+    .recipecart {
+        max-width: 95%; 
+        padding: 15px; 
+    }
+
+    .recipeHeading {
+        font-size: 20px; 
+    }
+
+    .recipeImg {
+        border-radius: 4px; 
+        margin-bottom: 8px; 
+    }
+
+    .recipeDetails {
+        flex-direction: column; 
+        align-items: flex-start; 
+        margin-bottom: 15px;
+    }
+
+    .recipeInstruction {
+        font-size: 14px;
+    }
+
+    .recipeInstruction li {
+        margin: 8px 0px; 
+    }
+}
